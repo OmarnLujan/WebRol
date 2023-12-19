@@ -1,5 +1,6 @@
 import { Body, Controller, Get, Post } from '@nestjs/common';
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { UsersService } from './users.service';
 
 import { CreateUserDto } from '../dto/create-user.dto';
